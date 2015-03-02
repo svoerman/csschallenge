@@ -1,0 +1,79 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "colors";
+@import "fonts";
+@import "layout";
+
+body.cssch {
+  background-color: white;
+  text-align: center;
+  line-height: 28px;
+  font-size: 14px;
+  
+  .jumbotron {
+    background-color: $primary-color;
+    p {
+      font-size: 1em;
+    }
+    
+    h1 {
+      font-size: $x-large;
+    }
+    a.btn {
+      margin-top: 30px;
+    }
+    .btn-primary {
+      background-color: $accent-color;
+    }
+  }
+  
+  .row {
+    margin-top: 30px;
+  }
+
+  .jumbotron.welcome {
+    padding: 100px 0 50px 0;
+    color: $text-icons-color;
+  }
+
+  .container.features {
+    margin: 60px auto 100px auto;
+  }
+
+  .jumbotron.reviews {
+    background-color: $divider-color;
+    h2.reviews-header {
+      color: $text-icons-color;
+      margin-bottom: 70px;
+    }
+    
+  }
+  .review {
+    background-color: $review-color;
+    padding: 60px 45px 15px;
+    display: table;
+    height: 100%;
+
+    img {
+      width: 140px;
+      height: 140px;
+      border: 7px solid $accent-color;
+      margin-bottom: 28px;
+    }
+    
+    h4 {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    
+    h5 {
+      font-style: italic;
+      margin-bottom: 28px;
+    }
+    
+    p {
+      color: $secondary-text;
+    }
+  }
+
+}

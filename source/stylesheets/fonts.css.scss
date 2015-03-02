@@ -1,0 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,700,400italic,700italic);
+
+$x-large: 4em;
+$large: 3em;
+$medium: 2em;
+
+
+body.cssch {
+  font-family: 'Droid Serif', serif;
+  
+  h1, h2 {
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+  }
+}
