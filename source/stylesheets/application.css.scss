@@ -41,9 +41,11 @@ body.cssch {
       background-color: $accent-color;
     }
   }
-  
-  .row .col-md-6, .row .col-md-4 {
-    margin-top: $vertical-rhythm*1;
+
+  .row {
+    .col-md-6, .col-md-4 {
+      margin-bottom: $vertical-rhythm*1;
+    }
   }
   
   .row:first-of-type {
@@ -55,7 +57,7 @@ body.cssch {
   }
 
   .jumbotron {
-    padding: $vertical-rhythm*3 0 $vertical-rhythm*3 0;
+    padding: $vertical-rhythm*3 0 $vertical-rhythm*2 0;
   }
 
   .jumbotron.welcome {
